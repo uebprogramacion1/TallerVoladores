@@ -10,7 +10,7 @@ public class Superman extends Kryptonian implements Flyer{
 	
 	public String leapBuilding() {return "Superman saltó un edificio.";}
 	
-	public String stopBullet() {return "Sepuerman paró la bala.";}
+	public String stopBullet() {return "Superman paró la bala.";}
 
 	public String eat() {return super.eat();}
 	
