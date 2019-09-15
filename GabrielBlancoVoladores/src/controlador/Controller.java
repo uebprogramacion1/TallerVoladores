@@ -58,7 +58,7 @@ public class Controller
 	
 	public void seaplane(String pAction)
 	{
-		pAction = theinterface.AppInput(System.in, "What should do the helicopter?", "GB-FLYERS: Seaplane");
+		pAction = theinterface.AppInput(System.in, "What should do the seaplane?", "GB-FLYERS: Seaplane");
 		switch(pAction)
 		{
 			default:
