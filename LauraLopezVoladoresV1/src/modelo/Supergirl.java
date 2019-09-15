@@ -10,6 +10,6 @@ public class Supergirl extends Kryptonian implements Flyer{
 	
 	public String darIdentidadSecreta() {return "La identidad secreta de supergirl es Kara Danvers.";}
 	
-	public String darTrabajo() {return "Kara Danvers trabaja para Grand Cat.";}
+	public String darTrabajo() {return "Kara Danvers trabaja para Grand Cat como asistente.";}
 
 }
