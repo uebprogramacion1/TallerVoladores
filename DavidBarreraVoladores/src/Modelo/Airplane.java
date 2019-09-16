@@ -16,7 +16,7 @@ public class Airplane extends Vehicle implements Flyer  {
 	
 	@Override
 	public String fly() {
-		return "Airplane in flight";
+		return "In flight";
 	}
 
 }

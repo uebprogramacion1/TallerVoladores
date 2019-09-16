@@ -19,6 +19,13 @@ public class Controlador {
 		gui.MostrarSuperman(m.getSupe().eat());
 	    gui.MostrarSuperman(m.getSupe().land());
 	    gui.MostrarSuperman(m.getSupe().LeapBuilding());
+	    gui.MostrarBatman(m.getBat().stopBullet()  
+	    		+m.getBat().Luchar());
+	    gui.MostrarGlobo(m.getGloA().fly()
+	    		+m.getGloA().Funcion());
+	    gui.MostrarBird(m.getAgui().buildNest()
+	    		+m.getAgui().Velocidad());
+	    
 	}
 	
 }

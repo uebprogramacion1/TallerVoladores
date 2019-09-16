@@ -9,6 +9,9 @@ public class Mundo {
 	private Animal Anim;
 	private Krytonian Kry;
 	private Superman Supe;
+	private Batman Bat;
+	private globoAerostatico GloA;
+	private Aguila Agui;
 
 	public Mundo() {
 		Veh = new Vehicle();
@@ -19,7 +22,35 @@ public class Mundo {
 		Anim = new Animal();
 		Kry = new Krytonian();
 		Supe = new Superman();
+		Bat= new Batman();
+		GloA= new globoAerostatico();
+		Agui = new Aguila();
+		
 
+	}
+
+	public Batman getBat() {
+		return Bat;
+	}
+
+	public void setBat(Batman bat) {
+		Bat = bat;
+	}
+
+	public globoAerostatico getGloA() {
+		return GloA;
+	}
+
+	public void setGloA(globoAerostatico gloA) {
+		GloA = gloA;
+	}
+
+	public Aguila getAgui() {
+		return Agui;
+	}
+
+	public void setAgui(Aguila agui) {
+		Agui = agui;
 	}
 
 	public Vehicle getVeh() {

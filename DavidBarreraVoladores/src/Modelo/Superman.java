@@ -21,6 +21,6 @@ public class Superman extends  Krytonian implements Flyer {
 		return " Superman Leap Building";
 	}
 	public String stopBullet() {
-		return " Superman Stop Bullet";
+		return "  Stop Bullet";
 	}
 }

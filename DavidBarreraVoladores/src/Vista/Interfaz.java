@@ -13,8 +13,13 @@ public class Interfaz {
 	public void MostrarSuperman(String cadena) {
 		JOptionPane.showMessageDialog(null, cadena, " Interface Superman", JOptionPane.INFORMATION_MESSAGE);
 	}
-
+	public void MostrarBatman(String cadena) {
+		JOptionPane.showMessageDialog(null, cadena, " Interface Batman", JOptionPane.INFORMATION_MESSAGE);
+	}
 	public void MostrarBird(String cadena) {
 		JOptionPane.showMessageDialog(null, cadena, " Interface Bird", JOptionPane.INFORMATION_MESSAGE);
+	}
+	public void MostrarGlobo(String cadena) {
+		JOptionPane.showMessageDialog(null, cadena, " Interface Globo Aerostatico", JOptionPane.INFORMATION_MESSAGE);
 	}
 }
